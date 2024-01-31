@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action>
+        <fieldset>
+            <legend>Information</legend>
+            <label for="Firtname">Enter, your first name</label>
+            <input for="Firstname" name="Firtname" type="text">
+            <label for="Secondname">Enter, your second name</label>
+            <input for="Secondname" name="Secondname" type="text">
+            Password<input type="password" name="pass">
+            Telephone<input type="tel" name="telephone">
+            Web<input type="email" name="webadress">
+            <input type="hidden" name="action" value="registration">
+        </fieldset>
+
+        <fieldset>
+            <legend>Information</legend>
+            <input type="radio" name="type" value="Female" id="fem">
+            <label for="fem">Woman</label>
+            <input type="radio" name="type" value="Male" id="male">
+            <label for="male">Man</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>CheckBox</legend>
+            <input type="checkbox" name="subject1" value="HTML" id="check1">
+            <label for="HTML">HTML used</label>
+            <input type="checkbox" name="subject2" value="Java" id="check2">
+            <label for="Java">Java used</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Button</legend>
+            <input type="button" name="click1" value="button" id="but1">
+            <label for="click">Click</label>
+            <input type="button" name="cancel" value="Cancel" id="but2">
+            <label for="Cancel">Cancel</label>
+            <input name="myfile" type="file">
+            <input type="date" name="Enter date">
+            <input type="range" name="volume">
+        </fieldset>
+
+        <fieldset>
+            <select>
+                <optgroup label="1st year">
+                    <option>LT 1.1</option>
+                    <option>LT 1.2</option>
+                </optgroup>
+
+                <optgroup label="2nd year">
+                    <option>DMW 2.1</option>
+                    <option>DSI 2.1</option>
+                </optgroup>
+
+                <optgroup label="3rd year">
+                    <option>DMW 3.1</option>
+                    <option>DSI 3.1</option>
+                    <option>RSI 3.1</option>
+                </optgroup>
+            </select>
+        </fieldset>
+
+
+    </form>
+
+
+
+    
+</body>
+</html>
